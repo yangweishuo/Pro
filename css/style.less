@@ -1,0 +1,383 @@
+//.li-sm {
+//  font-size: 13.6px;
+//  //font-size: .85rem;
+//  padding: 8px 16px;
+//}
+body {
+  overflow-x: hidden;
+  margin: 0;
+  font-size: 16px;
+  font-size: 1rem;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.5;
+  color: #555;
+  background-color: #fff;
+  -webkit-overflow-scrolling: touch;
+}
+.li-pr{
+  a{
+    color: #fff;
+  }
+  text-decoration: none;
+  border: 1px solid #528c2b;
+  background-color: #5d9f31;
+  background-image: -webkit-linear-gradient(top,#66af36 0,#5d9f31 100%);
+  background-image: -o-linear-gradient(top,#66af36 0,#5d9f31 100%);
+  background-image: linear-gradient(to bottom,#66af36 0,#5d9f31 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff66af36', endColorstr='#ff5d9f31', GradientType=0);
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 -0.1em 0 #467825, 0 0 0 2px transparent;
+  box-shadow: inset 0 -0.1em 0 #467825, 0 0 0 2px transparent;
+}
+body{
+  ul,ol{
+    list-style: none;
+  }
+}
+//导航
+nav{
+  width: 100%;
+  background: #00989e;
+}
+.nav-tabs>li>a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+  color: #fff;
+  font-weight:bold;
+}
+.nav-tabs {
+  padding-top:2px;
+  border-bottom: 1px solid #ddd;
+}
+.nav-tabs>li.active>a {
+  color: #00989e;
+  font-weight:bold;
+  cursor: default;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+.nav-tabs>li {
+  float: left;
+  margin-bottom: -1px;
+  &:last-child{
+    float: right;
+  }
+}
+
+//导航
+img{
+  padding-top:26px;
+  vertical-align: middle;
+  zoom: 1;
+  max-height: 100%;
+  max-width: 100%;
+}
+.nav{
+  line-height:96px;
+}
+.navbar-toggle {
+  position: relative;
+  float: left;
+  padding: 9px 10px;
+  margin-top: -18px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  background: #00989e;
+}
+.navbar-header{
+  padding-top: 16px;
+}
+.col-xs-8 {
+  width: 66.66666667%;
+  margin-top: 26px;
+}
+.navbar-nav > li a {
+  float: left;
+  font-weight: bold;
+}
+.nav__dropdown__item:after {
+  content: "\f107";
+  font-family: "微软雅黑";
+  font-style: normal;
+  font-weight: 400;
+  speak: none;
+  display: inline;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-left: .5em;
+}
+@media all  and  (max-width:768px) {
+  .navbar-header{
+    padding-top: 16px;
+  }
+  .col-xs-4 {
+    width: 33.33333333%;
+    float: right;
+    text-align: center;
+    margin-right: 30%;
+  }
+  .col-xs-8 {
+    width: 35.666667%;
+  }
+}
+//广告
+.banner {
+  position: relative;
+  .button--continue {
+    position: relative;
+    padding: 20px
+  }
+  .button--primary {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #528c2b;
+    background-color: #5d9f31;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 -0.1em 0 #467825, 0 0 0 2px transparent;
+    box-shadow: inset 0 -0.1em 0 #467825, 0 0 0 2px transparent;
+  }
+  .lihp-promo-code-prompt {
+    line-height: 48px;
+    a{
+      color: #5d9f31;
+      text-decoration: underline;
+    }
+
+  }
+  .bottom{
+      width: 100%;
+      .vertical-bottom{
+        margin-top:-24.5%;
+        width: 100%;
+        z-index: -100;
+        position: relative;
+      }
+    }
+
+}
+//小三角
+//.signpost {
+//  position: absolute;
+//  right: 0;
+//  bottom: -108px;
+//  left: 0;
+//  height: 50px;
+//  overflow: hidden;
+//}
+//.signpost__arrow {
+//  margin-left: 44%;
+//  margin-top:0px;
+//  height: 50px;
+//  width: 100px;
+//  border-top: 50px solid transparent;
+//  border-left: 50px solid #fff;
+//  border-right: 50px solid #fff;
+//}
+//.signpost::after {
+//  margin-left: 50px;
+//}
+//.signpost::before {
+//  margin-right: 50px;
+//}
+//.signpost::before {
+//  right: 50%;
+//  left: 0;
+//  //margin-right: 40px;
+//  content: '';
+//  position: absolute;
+//  bottom: 0;
+//  top: 0;
+//  background-color: #fff;
+//}
+//.signpost::after {
+//  right: 0;
+//  left: 50%;
+//  //margin-left: 40px;
+//  content: '';
+//  position: absolute;
+//  bottom: 0;
+//  top: 0;
+//  background-color: #fff;
+//
+//}
+.page-section__content>:last-child {
+  margin-bottom: 0;
+}
+.container-constrained-lg {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+.container-constrained-lg {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+img {
+  vertical-align: middle;
+}
+img {
+  border: 0;
+  max-width: 100%;
+}
+.lead {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+h1 {
+  font-size: 2rem;
+  font-family: graze-font,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  letter-spacing: -.04em;
+  color: #00989e;
+}
+//2
+.page-section--signpost+.page-section {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.page-section--hint {
+  border-color: #f8f8f8;
+}
+.page-section {
+  position: relative;
+  border-color: #fff;
+}
+.page-section--hint {
+  background-color: #f8f8f8;
+}
+.container-constrained-xs {
+  max-width: 480px;
+  width: 100%;
+  margin: auto;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  -ms-flex: 0 0 auto;
+  -webkit-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+.grid__cell-img {
+  display: block;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex: 0 0 auto;
+  -webkit-flex: 0 0 auto;
+  flex: 0 0 auto;
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
+  height: auto;
+}
+.grid--align-center {
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.grid {
+  display: inline-block;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  zoom: 1;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  letter-spacing: -.31em!important;
+  word-spacing: -.43em!important;
+  list-style-type: none;
+}
+.grid--align-center {
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.grid {
+  display: inline-block;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  letter-spacing: -.31em!important;
+  word-spacing: -.43em!important;
+}
+.button--continue {
+  position: relative;
+  padding-right: 2em;
+}
+.button--primary {
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #528c2b;
+  background-color: #5d9f31;
+  background-image: -webkit-linear-gradient(top,#66af36 0,#5d9f31 100%);
+  background-image: -o-linear-gradient(top,#66af36 0,#5d9f31 100%);
+  background-image: linear-gradient(to bottom,#66af36 0,#5d9f31 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff66af36', endColorstr='#ff5d9f31', GradientType=0);
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 -0.1em 0 #467825, 0 0 0 2px transparent;
+  box-shadow: inset 0 -0.1em 0 #467825, 0 0 0 2px transparent;
+}
+.button {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: inline-block;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  font-weight: 400;
+  text-align: center;
+  text-align-last: center;
+  text-shadow: none;
+  padding: 8px 16px;
+  -webkit-transition: box-shadow ease-in-out .15s;
+  -o-transition: box-shadow ease-in-out .15s;
+  transition: box-shadow ease-in-out .15s;
+  color: #555;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  background-color: #eee;
+  background-image: -webkit-linear-gradient(top,#f8f8f8 0,#eee 100%);
+  background-image: -o-linear-gradient(top,#f8f8f8 0,#eee 100%);
+  background-image: linear-gradient(to bottom,#f8f8f8 0,#eee 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff8f8f8', endColorstr='#ffeeeeee', GradientType=0);
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 -0.1em 0 #d5d5d5, 0 0 0 2px transparent;
+  box-shadow: inset 0 -0.1em 0 #d5d5d5, 0 0 0 2px transparent;
+}
